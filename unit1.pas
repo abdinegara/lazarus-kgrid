@@ -5,10 +5,14 @@ unit Unit1;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs;
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, KGrids;
 
 type
+
+  { TForm1 }
+
   TForm1 = class(TForm)
+    KGrid1: TKGrid;
   private
     { private declarations }
   public
